@@ -1,16 +1,13 @@
 /**
- *   File Name: AppBasics.java<br>
- *
- *   Nepton, Jean-francois<br>
- *   Java Boot Camp Exercise<br>
- *   Instructor: Jean-francois Nepton<br>
- *   Created: Apr 2, 2016
- *
+ * File Name: AppBasics.java<br>
+ * Kateryna Androshchuk<br>
+ * Java Boot Camp Exercise<br>
+ * Instructor: Kateryna Androshchuk<br>
+ * Created: Apr 2, 2016
  */
+package com.ka;
 
-package com.sqa.jf.util.helpers;
-
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * AppBasics //ADDD (description of class)
@@ -22,7 +19,6 @@ import java.util.Scanner;
  * @author Nepton, Jean-francois
  * @version 1.0.0
  * @since 1.0
- *
  */
 public class AppBasics {
 

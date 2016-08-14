@@ -1,20 +1,16 @@
 /**
- *   File Name: RequestInput.java<br>
- *
- *   Nepton, Jean-francois<br>
- *   Java Boot Camp Exercise<br>
- *   Instructor: Jean-francois Nepton<br>
- *   Created: Mar 30, 2016
- *
+ * File Name: RequestInput.java<br>
+ * Kateryna Androshchuk<br>
+ * Java Boot Camp Exercise<br>
+ * Instructor: Kateryna Androshchuk<br>
+ * Created: Mar 30, 2016
  */
+package com.ka;
 
-package com.sqa.jf.util.helpers;
-
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * RequestInput
- *
  * <p>
  * Class which is used to get input from user and return an acceptable value.
  * </p>
@@ -22,9 +18,9 @@ import java.util.Scanner;
  * @author Nepton, Jean-francois
  * @version 1.0.0
  * @since 1.0
- *
  */
 public class RequestInput {
+
 	private static Scanner scanner;
 
 	/**
@@ -202,7 +198,6 @@ public class RequestInput {
 				System.out.print(question);
 				input = scanner.nextLine();
 				resultValue = Integer.parseInt(input);
-
 				for (int i = 0; i < acceptableNumber.length; i++) {
 					if (resultValue == acceptableNumber[i]) {
 						validInt = true;
@@ -212,7 +207,6 @@ public class RequestInput {
 					throw new InvalidAcceptableNumberException();
 				}
 				return resultValue;
-
 			} catch (NumberFormatException e) {
 				System.out.println("You have not provided a valid integer type (" + input + ")");
 				continue;
@@ -238,7 +232,6 @@ public class RequestInput {
 				System.out.print(question);
 				input = scanner.nextLine();
 				resultValue = Integer.parseInt(input);
-
 				if (resultValue >= min && resultValue <= max) {
 					validInt = true;
 				}
@@ -246,7 +239,6 @@ public class RequestInput {
 					throw new InvalidAcceptableNumberException();
 				}
 				return resultValue;
-
 			} catch (NumberFormatException e) {
 				System.out.println("You have not provided a valid integer type (" + input + ")");
 				continue;
@@ -292,7 +284,6 @@ public class RequestInput {
 				System.out.print(question);
 				input = scanner.nextLine();
 				resultValue = input;
-
 				for (int i = 0; i < acceptableWords.length; i++) {
 					if (resultValue.trim().replace(" ", "").equalsIgnoreCase(acceptableWords[i])) {
 						validWord = true;
@@ -325,7 +316,6 @@ public class RequestInput {
 				System.out.print(question);
 				input = scanner.nextLine();
 				resultValue = input;
-
 				for (int i = 0; i < acceptableEnum.length; i++) {
 					if (resultValue.trim().equalsIgnoreCase(acceptableEnum[i].toString())) {
 						validWord = true;
@@ -346,10 +336,8 @@ public class RequestInput {
 					}
 				}
 				System.out.println();
-
 				String message = String.format(cancellationMessage, input);
 				System.out.println(message);
-
 				System.out.println("If you would like to cancel, enter '*' or just press enter to continue:");
 				input = scanner.nextLine();
 				if (input.equalsIgnoreCase("*")) {

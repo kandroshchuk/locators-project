@@ -1,5 +1,5 @@
 
-package com.sqa.jf.util.helpers;
+package com.ka;
 
 public class InvalidAcceptableNumberException extends Exception {
 
