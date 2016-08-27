@@ -5,7 +5,7 @@
  * Instructor: Kateryna Androshchuk<br>
  * Created: Mar 30, 2016
  */
-package com.ka;
+package com.ka.helpers;
 
 import java.util.*;
 

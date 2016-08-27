@@ -5,7 +5,7 @@
  * Instructor: Kateryna Androshchuk<br>
  * Created: Mar 31, 2016
  */
-package com.ka;
+package com.ka.helpers;
 
 /**
  * InvalidAcceptableWordException //ADDD (description of class)

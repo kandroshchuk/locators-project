@@ -1,5 +1,5 @@
 
-package com.ka;
+package com.ka.helpers;
 
 public class InvalidAcceptableNumberException extends Exception {
 
