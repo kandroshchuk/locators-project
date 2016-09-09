@@ -5,6 +5,8 @@
 **Java 7
 
 * Java Application
+* Maven
+* JUnit
 
 Simple Java Application.
 

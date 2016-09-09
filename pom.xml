@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sqa.ka</groupId>
-  <artifactId>basic-project</artifactId>
+  <artifactId>java-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Basic Project</name>
-  <description>Basic Project Structure</description>
-  <!-- https://mvnrepository.com/artifact/junit/junit -->
+  <name>Java Application</name>
+  <description>Application which forms a basic starting point for Java Applications.</description>
+
   
   <dependencies>
   <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>6.9.10</version>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
 </dependency>
 </dependencies>
 
