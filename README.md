@@ -1,11 +1,17 @@
 #Automation Project
 
-*Simple Java Project*
+*Project for creating automation tests using TestNG and Selenium.*
 
 **Java 7
 
-* Automation Project
+* Maven
 * TestNG
-* Selenium
+* Selenium WebDriver
+* Log4j
+* JDBC
+* SQL
+* CVS / Test
+
+Automation Project.
 
 [Kateryna Androshchuk](https://github.com/kandroshchuk)
